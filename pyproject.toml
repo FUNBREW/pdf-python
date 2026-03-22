@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "funbrew-pdf"
+version = "1.0.0"
+description = "FUNBREW PDF API client for Python"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["requests>=2.28"]
+
+[project.urls]
+Homepage = "https://pdf.funbrew.tech"
+Documentation = "https://pdf.funbrew.tech/docs"
